@@ -2,7 +2,7 @@ export const servicesData = [
   {
     title: "Foreign Investment Approvals",
     desc: "Expert assistance in FDI approvals, FEMA compliance, RBI filings, and regulatory approvals for foreign investments in India.",
-    link: "/services/foreign-investment-approvals",
+    link: "/services/foreign-investmet-approval",
     icon: "🌐",
   },
   {
