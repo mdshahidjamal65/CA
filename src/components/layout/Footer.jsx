@@ -94,13 +94,17 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:ayazkh1226@gmail.com" className="hover:text-[#60A5FA]">
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=ayazkh1226@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#60A5FA]"
+                >
                   ✉ ayazkh1226@gmail.com
                 </a>
               </li>
               <li className="leading-relaxed">
-                📍 Office # Alamganj,<br />
-                Patna, Bihar, India
+                📍 Office # Patna, Bihar, India
               </li>
             </ul>
           </div>

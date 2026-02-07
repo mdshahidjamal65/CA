@@ -118,6 +118,15 @@ const ContactLeadForm = ({ defaultService = "" }) => {
                 <option value="Transfer Pricing">
                   Transfer Pricing
                 </option>
+                <option value="Virtual CFO">
+                  Virtual CFO
+                </option>
+                <option value="Business Setup">
+                  Business Setup
+                </option>
+               <option value="Litigation">
+                 Litigation
+                </option>
               </select>
 
               <textarea

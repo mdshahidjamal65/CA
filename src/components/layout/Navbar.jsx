@@ -91,7 +91,24 @@ const Navbar = () => {
                     className="block px-4 py-2 hover:bg-blue-50"  >
                     Transfer Pricing
                     </NavLink>
-
+                  <NavLink
+                    to="/services/business-setup"
+                    className="block px-4 py-2 hover:bg-blue-50"
+                  >
+                    Business Setup
+                  </NavLink>
+                  <NavLink
+                    to="/services/litigation"
+                    className="block px-4 py-2 hover:bg-blue-50"
+                  >
+                    Litigation
+                  </NavLink>
+                  <NavLink
+                    to="/services/virtual-cfo"
+                    className="block px-4 py-2 hover:bg-blue-50"
+                  >
+                    Virtual CFO
+                  </NavLink>
                 </div>
               )}
             </div>
@@ -168,6 +185,15 @@ const Navbar = () => {
     </NavLink>
     <NavLink to="/services/transfer-pricing" onClick={closeMobileMenu}>
       Transfer Pricing
+    </NavLink>
+    <NavLink to="/services/business-setup" onClick={closeMobileMenu}>
+      Business Setup
+    </NavLink>
+    <NavLink to="/services/litigation" onClick={closeMobileMenu}>
+      Litigation
+    </NavLink>
+    <NavLink to="/services/virtual-cfo" onClick={closeMobileMenu}>
+      Virtual CFO
     </NavLink>
   </div>
 )}

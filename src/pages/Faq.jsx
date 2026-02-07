@@ -11,20 +11,20 @@ const FAQ = () => {
   return (
     <main className="bg-[#F9FAFB]">
 
-      {/* HERO */}
-      <section className="bg-gradient-to-r from-[#DBEAFE] to-[#EFF6FF] py-16">
+      {/* ===== HERO (UPDATED TO MATCH SERVICES / BLOG) ===== */}
+      <section className="bg-gradient-to-r from-[#1D4ED8] to-[#60A5FA] py-20 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h1 className="text-4xl font-bold text-[#0F172A]">
+          <h1 className="text-4xl font-bold">
             Frequently Asked Questions
           </h1>
-          <p className="mt-4 text-[#64748B]">
+          <p className="mt-4 text-blue-100">
             Clear answers to common questions about taxation, compliance,
             auditing, and financial advisory services.
           </p>
         </div>
       </section>
 
-      {/* FAQ LIST */}
+      {/* ===== FAQ LIST (UNCHANGED) ===== */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-6 space-y-4">
 

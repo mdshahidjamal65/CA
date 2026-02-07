@@ -14,6 +14,9 @@ import CorporateCompliance from "../pages/Services/CorporateCompliance";
 import ExpatriateTaxation from "../pages/Services/ExpatriateTaxation";
 import BusinessTaxation from "../pages/Services/BusinessTaxation";
 import TransferPricing from "../pages/Services/TransferPricing";
+import BusinessSetup from "../pages/Services/BusinessSetup";
+import Litigation from "../pages/Services/Litigation";    
+import VirtualCFO from "../pages/Services/VirtualCFO";
 
 
 
@@ -38,9 +41,11 @@ const AppRoutes = () => {
         <Route path="/services/expatriate-taxation" element={<ExpatriateTaxation />} />
         <Route path="/services/business-taxation" element={<BusinessTaxation />} />
         <Route path="/services/transfer-pricing" element={<TransferPricing />} />
+        <Route path="/services/business-setup" element={<BusinessSetup />} />
+        <Route path="/services/litigation" element={<Litigation />} />
+        <Route path="/services/virtual-cfo" element={<VirtualCFO />} />
 
-        
-      
+
 
         
         <Route path="/blogs" element={<Blogs />} />

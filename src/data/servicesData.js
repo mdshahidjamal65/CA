@@ -40,19 +40,19 @@ export const servicesData = [
   {
     title: "Virtual CFO",
     desc: "Strategic financial management, MIS reporting, budgeting, and CFO-level support.",
-    //link: "/services/virtual-cfo",
+    link: "/services/virtual-cfo",
     icon: "💼",
   },
   {
     title: "Business Setup",
     desc: "Company incorporation, LLP registration, and startup advisory services.",
-    //link: "/services/business-setup",
+    link: "/services/business-setup",
     icon: "🚀",
   },
   {
     title: "Litigation",
     desc: "Professional representation in tax litigation, appeals, and assessments.",
-    //link: "/services/litigation",
+    link: "/services/litigation",
     icon: "⚖️",
   },
 ];
