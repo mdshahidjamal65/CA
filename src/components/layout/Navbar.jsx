@@ -102,7 +102,7 @@ const Navbar = () => {
             <NavLink to="/contact" className={linkClass}>Contact Us</NavLink>
 
             <a
-              href="tel:+918700770603"
+              href="tel:+919241303862"
               className="bg-[#1D4ED8] text-white px-5 py-2 rounded-md hover:opacity-90 transition"
             >
               Call Now
@@ -129,41 +129,55 @@ const Navbar = () => {
             <NavLink to="/blogs" onClick={closeMobileMenu}>Blogs</NavLink>
 
             {/* MOBILE SERVICES */}
-            <button
-              onClick={() => setMobileServices(!mobileServices)}
-              className="text-left font-medium"
-            >
-              Services ▾
-            </button>
+<div className="flex items-center justify-between">
+  {/* TEXT → REDIRECT */}
+  <NavLink
+    to="/services"
+    onClick={closeMobileMenu}
+    className="font-medium"
+  >
+    Services
+  </NavLink>
 
-            {mobileServices && (
-              <div className="ml-4 flex flex-col gap-2">
-                <NavLink to="/services/foreign-investmet-approval" onClick={closeMobileMenu}>
-                  Foreign Investment Approval 
-                </NavLink>
-                <NavLink to="/services/auditing" onClick={closeMobileMenu}>
-                  Auditing
-                </NavLink>
-                <NavLink to="/services/corporate-compliance" onClick={closeMobileMenu}>
-                  Corporate Compliance
-                </NavLink>
-                <NavLink to="/services/expatriate-taxation" onClick={closeMobileMenu}>
-                  Expatriate Taxation
-                </NavLink>
-                <NavLink to="/services/business-taxation" onClick={closeMobileMenu}>
-                  Business Taxation
-                </NavLink>
-                <NavLink to="/services/transfer-pricing" onClick={closeMobileMenu}>
-                  Transfer Pricing
-                </NavLink>
-              </div>
-            )}
+  {/* ARROW → TOGGLE */}
+  <button
+    onClick={() => setMobileServices(!mobileServices)}
+    className="text-xl px-2"
+    aria-label="Toggle services menu"
+  >
+    ▾
+  </button>
+</div>
+
+{mobileServices && (
+  <div className="ml-4 mt-2 flex flex-col gap-2">
+    <NavLink to="/services/foreign-investmet-approval" onClick={closeMobileMenu}>
+      Foreign Investment Approval
+    </NavLink>
+    <NavLink to="/services/auditing" onClick={closeMobileMenu}>
+      Auditing
+    </NavLink>
+    <NavLink to="/services/corporate-compliance" onClick={closeMobileMenu}>
+      Corporate Compliance
+    </NavLink>
+    <NavLink to="/services/expatriate-taxation" onClick={closeMobileMenu}>
+      Expatriate Taxation
+    </NavLink>
+    <NavLink to="/services/business-taxation" onClick={closeMobileMenu}>
+      Business Taxation
+    </NavLink>
+    <NavLink to="/services/transfer-pricing" onClick={closeMobileMenu}>
+      Transfer Pricing
+    </NavLink>
+  </div>
+)}
+
 
             <NavLink to="/faq" onClick={closeMobileMenu}>FAQ</NavLink>
             <NavLink to="/contact" onClick={closeMobileMenu}>Contact Us</NavLink>
 
             <a
-              href="tel:+918700770603"
+              href="tel:+919241303862"
               onClick={closeMobileMenu}
               className="mt-3 bg-[#1D4ED8] text-white text-center py-2 rounded-md font-medium"
             >

@@ -89,19 +89,18 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3 text-sm text-gray-400">
               <li>
-                <a href="tel:+918700770603" className="hover:text-[#60A5FA]">
-                  📞 +91 8700770603
+                <a href="tel:+919241303862" className="hover:text-[#60A5FA]">
+                  📞 +91 9241303862
                 </a>
               </li>
               <li>
-                <a href="mailto:info@kafinancialadvisory.com" className="hover:text-[#60A5FA]">
-                  ✉ info@kafinancialadvisory.com
+                <a href="mailto:ayazkh1226@gmail.com" className="hover:text-[#60A5FA]">
+                  ✉ ayazkh1226@gmail.com
                 </a>
               </li>
               <li className="leading-relaxed">
-                📍 Office # S205, 2nd Floor,<br />
-                Balaji Building, Corner Market,<br />
-                Malviya Nagar, New Delhi – 110017
+                📍 Office # Alamganj,<br />
+                Patna, Bihar, India
               </li>
             </ul>
           </div>
@@ -124,3 +123,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
